@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Furniro - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">Furniro</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-icons">
+        <a href="#" id="search-icon"><i class="fas fa-search"></i></a>
+        <a href="#" id="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+        <a href="#" id="user-icon"><i class="fas fa-user"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Discover Our New Collection</h1>
+          <p>Explore stylish and comfortable furniture for your home.</p>
+          <a href="shop.html" class="btn-primary">Shop Now</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80" alt="Furniture" />
+        </div>
+      </div>
+    </section>
+
+    <section class="categories-section">
+      <div class="container">
+        <h2>Browse The Range</h2>
+        <div class="categories-grid">
+          <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Dining" />
+            <h3>Dining</h3>
+          </div>
+          <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=400&q=80" alt="Living" />
+            <h3>Living</h3>
+          </div>
+          <div class="category-card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Bedroom" />
+            <h3>Bedroom</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-products-section">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div id="featured-products" class="products-grid">
+          <!-- Featured products will be loaded here -->
+        </div>
+        <div class="show-more-container">
+          <a href="shop.html" class="btn-secondary">Show More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="inspiration-section">
+      <div class="container inspiration-content">
+        <div class="inspiration-text">
+          <h2>50+ Beautiful rooms inspiration</h2>
+          <p>Discover beautiful room ideas and furniture inspiration for your home.</p>
+          <a href="#" class="btn-primary">Explore More</a>
+        </div>
+        <div class="inspiration-images">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Inspiration 1" />
+          <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=400&q=80" alt="Inspiration 2" />
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Inspiration 3" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>Furniro</h3>
+        <p>123 Furniture St, Design City, Country</p>
+        <p>Email: info@furniro.com</p>
+        <p>Phone: +1 234 567 890</p>
+      </div>
+      <div class="footer-links">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">All Products</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Best Sellers</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>About</h4>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Shipping</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Furniro. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
