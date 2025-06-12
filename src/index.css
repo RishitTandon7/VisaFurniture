@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #3a3a3a;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Animations */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-animate.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hide scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Additional styling */
+.btn-primary {
+  @apply px-6 py-3 bg-primary-300 text-secondary-800 font-medium rounded-md transition-all duration-300 hover:bg-primary-400 hover:shadow-md transform hover:-translate-y-1;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 border border-secondary-800 text-secondary-800 font-medium rounded-md transition-all duration-300 hover:bg-secondary-800 hover:text-white transform hover:-translate-y-1;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-serif font-bold text-secondary-800 mb-4;
+}
+
+.section-subtitle {
+  @apply text-primary-300 font-medium mb-2 block uppercase tracking-wider;
+}
+
+/* Elegant input styling */
+.input-elegant {
+  @apply px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-300 focus:border-transparent transition-all duration-300;
+}
+
+/* Card hover effects */
+.card-hover {
+  @apply transition-all duration-500 transform hover:-translate-y-2 hover:shadow-hover;
+}
+
+/* Custom gradient backgrounds */
+.bg-gradient-elegant {
+  @apply bg-gradient-to-r from-secondary-800 to-secondary-900;
+}
+
+.bg-gradient-light {
+  @apply bg-gradient-to-br from-primary-50 to-gray-50;
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  h1, h2, h3 {
+    word-break: break-word;
+  }
+  
+  .mobile-menu-height {
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+  
+  .mobile-touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
