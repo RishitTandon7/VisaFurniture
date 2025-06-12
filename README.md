@@ -126,7 +126,7 @@ For any inquiries or further discussion about VisaFurniture, feel free to reach 
 
 **Rishit Tandon**
 
-  * **Website:** [rishittandon.com](https://visafurniture.netlify.app)
+  * **Website:** [VisaFurniture](https://visafurniture.netlify.app)
   * **Project Link:** [https://github.com/RishitTandon7/VisaFurniture](https://github.com/RishitTandon7/VisaFurniture)
 
 -----
